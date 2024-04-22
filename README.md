@@ -13,6 +13,7 @@ https://docs.docker.com/engine/install/debian/
 
 
 Установка rancher
+
 ![alt_text](https://github.com/kod1197/test-case/blob/main/img/Pasted%20image%2020240418150244.png)
 
 ![alt_text](https://github.com/kod1197/test-case/blob/main/img/Pasted%20image%2020240418160843.png)
@@ -32,6 +33,7 @@ https://docs.docker.com/engine/install/debian/
 https://kubernetes.io/ru/docs/tasks/tools/install-kubectl/
 
 Скачиваем KubeConfig
+
 ![alt_text](https://github.com/kod1197/test-case/blob/main/img/Pasted%20image%2020240421131346.png)
 
 Создаем папку .kube и перемещаем туда скачанный конфиг, называем его config, проверяем доступ к кластеру
@@ -72,5 +74,6 @@ https://kubernetes.github.io/ingress-nginx/deploy/#bare-metal-clusters
 Проверяем доступность серверов
 Доступность по порту 
 ![alt_text](https://github.com/kod1197/test-case/blob/main/img/Pasted%20image%2020240421162106.png)
+
 На одной из машин добавил запись 10.0.2.6 test.host в hosts и получил доступ из браузера
 ![alt_text](https://github.com/kod1197/test-case/blob/main/img/Pasted%20image%2020240422140124.png)
