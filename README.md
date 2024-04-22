@@ -2,7 +2,7 @@
 # Создать две виртуальные машины. Средство виртуализации на своё усмотрение.
 
 Для создания виртуальных машин я использовал VirtualBox. ОС Debian
-![alt text](https://github.com/kod1197/test-case/blob/main/img/Pasted%20image%2020240422132050.png)
+![alt_text](https://github.com/kod1197/test-case/blob/main/img/Pasted%20image%2020240422132050.png)
 # ·         На двух виртуальных машинах запустить два узла Rancher (Kubernetes). Способ развертывания и версию Rancher также можно выбрать на своё усмотрение.
 
 
@@ -13,7 +13,7 @@ https://docs.docker.com/engine/install/debian/
 
 
 Установка rancher
-![[Pasted image 20240418150244.png]]
+![alt_text](https://github.com/kod1197/test-case/blob/main/img/Pasted%20image%2020240418150244.png)
 
 ![[Pasted image 20240418160843.png]]
 
