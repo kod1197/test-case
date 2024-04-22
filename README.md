@@ -61,10 +61,15 @@ https://helm.sh/docs/intro/install/
 
 # · Обратить внимание, какие объекты Kubernetes создаются в процессе развёртвания Helm Releases. 
 В процессе развертывания создались объекты:
+
 · Pods
+
 · Services
+
 · Deployments
+
 · ConfigMaps
+
 
 # ·	Ознакомиться с командами cordon, drain, uncordon.
 Доступ к функционалу cordon, drain, uncordon можно получить через Web UI Rancher или через kubectl
