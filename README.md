@@ -54,7 +54,7 @@ https://kubernetes.io/ru/docs/tasks/tools/install-kubectl/
 Установка helm
 https://helm.sh/docs/intro/install/
 
-Создаем helm charts
+Создаем helm charts (helm charts находятся в папке helm)
 Упаковываем и устанавливаем релизы
 ![alt_text](https://github.com/kod1197/test-case/blob/main/img/Pasted%20image%2020240422135448.png)
 
