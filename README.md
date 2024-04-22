@@ -73,9 +73,13 @@ https://helm.sh/docs/intro/install/
 
 # ·	Ознакомиться с командами cordon, drain, uncordon.
 Доступ к функционалу cordon, drain, uncordon можно получить через Web UI Rancher или через kubectl
+
 · cordon - после выполнения этой команды на узле не будут развертываться новые поды, существующие поды остануться запущеными
+
 · drain - удаляет все поды с узла перезапуская их на других узлах кластера
+
 · uncordon - комнада обратная cordon, возвращает узел к нормальной доступности
+
 
 # · Включить Ingress для Kubernetes. Web-серверы должны быть доступны по внешним IP адресам виртуальных машин, не только по hostnames или IP внутри Kubernetes.
 # · Настроить маршруты HTTP на основе путей URI. Например, myhostname.localdomain/server1 указывает на первый web сервер, работающий внутри Kubernetes. Аналогично myhostname.localdomain/server2 указывает на второй.
